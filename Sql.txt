@@ -1,0 +1,7 @@
+Select `Productcol`,`Categoriescol` from `product` left  join `categories-products` on   `categories-products`.`product` = `product`.`idProduct` 
+left join `categories` on `categories`.`idCategories` = `category` ;
+
+/* Запрос для работодателя */
+
+Select `Productcol`,`Categoriescol` from `product` left  join `categories-products` on   `categories-products`.`product` = `product`.`idProduct` 
+left join `categories` on `categories`.`idCategories` = `category` ;
