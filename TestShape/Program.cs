@@ -11,9 +11,9 @@ namespace TestShape
     {
         static void Main(string[] args)
         {
-            Shape.Shape.Triangle triangle = new Shape.Shape.Triangle(30, 23, 13);
+            Shape.Triangle triangle = new Shape.Triangle(30, 23, 13);
             Console.WriteLine(triangle.Area);
-            Console.WriteLine(triangle.GetArea());
+            Console.WriteLine(triangle.CalculateArea());
             Console.ReadKey();
         }
     }
