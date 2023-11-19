@@ -1,7 +1,3 @@
-Select `Productcol`,`Categoriescol` from `product` left  join `categories-products` on   `categories-products`.`product` = `product`.`idProduct` 
-left join `categories` on `categories`.`idCategories` = `category` ;
-
-/* Çàïðîñ äëÿ ðàáîòîäàòåëÿ */
 
 Запрос примерный так как не известно точное название таблиц и полей. 
 Возможно не правильно тк. в задание указанно только две таблицы без таблицы соединителя , однако решение без токовой я не нашел . 
